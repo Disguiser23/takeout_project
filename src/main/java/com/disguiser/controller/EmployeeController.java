@@ -74,7 +74,7 @@ public class EmployeeController {
      * @return
      */
     @PostMapping("/logout")
-    public Result logout(HttpServletRequest request) {
+    public Result<String> logout(HttpServletRequest request) {
         //尝试删除
         try {
             request.getSession().removeAttribute("employee");
@@ -94,7 +94,7 @@ public class EmployeeController {
      * @return
      */
     @PostMapping("")
-    public Result addEmployee(HttpServletRequest httpServletRequest,@RequestBody Employee employee) {
+    public Result addEmployee(HttpServletRequest httpServletRequest, @RequestBody Employee employee) {
         //设置默认密码，顺手加密了
         employee.setPassword(MD5Util.getMD5("123456"));
         //设置修改时间
