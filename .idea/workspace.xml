@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dbe8612-8fe7-4aca-9547-c13df155b80e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/disguiser/common/CustomerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/disguiser/common/GloableExceptionHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/disguiser/filter/LoginCheckFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/disguiser/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disguiser/ReggieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disguiser/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disguiser/controller/EmployeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +75,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.disguiser.utility" />
       <recent name="com.disguiser.common" />
+      <recent name="com.disguiser.utility" />
       <recent name="com.disguiser.controller" />
       <recent name="com.disguiser.service.impl" />
       <recent name="com.disguiser.service" />
@@ -103,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708434994566</updated>
-      <workItem from="1708434995610" duration="9470000" />
+      <workItem from="1708434995610" duration="14214000" />
     </task>
     <servers />
   </component>
@@ -117,6 +120,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/disguiser/filter/LoginCheckFilter.java</url>
           <line>32</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/disguiser/common/GloableExceptionHandler.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
