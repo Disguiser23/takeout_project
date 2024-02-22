@@ -119,7 +119,8 @@ public class EmployeeController {
      * @return 返回Page页
      */
     @GetMapping("/page")
-    public Result<Page> page(int page, int pageSize,String name){
+    public Result<Page> page(int page, int pageSize, String name){
+        log.info("page = {}, pageSize = {}, name = ", page, pageSize, name);
         //分页构造器,Page(第几页, 查几条)
         Page pageInfo = new Page(page, pageSize);
         //查询构造器
